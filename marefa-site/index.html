@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Al-Marefa — Industrial Contracting, Saudi Arabia</title>
+    <meta
+      name="description"
+      content="Contracting and industrial solutions for milling plants, silos and heavy industry across Saudi Arabia, since 2019."
+    />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600&display=swap"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- PLACEHOLDER ART: replace with real photos (see assets/README.md) -->
+    <svg width="0" height="0" style="position: absolute" aria-hidden="true">
+      <defs>
+        <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#2b3a4a" />
+          <stop offset=".55" stop-color="#c9894f" />
+          <stop offset="1" stop-color="#6a4a32" />
+        </linearGradient>
+        <g id="scene">
+          <rect width="1600" height="900" fill="url(#sky)" />
+          <path
+            d="M0 640Q300 590 600 630T1200 620T1600 600V900H0Z"
+            fill="#4a3a2c"
+          />
+          <rect y="660" width="1600" height="240" fill="#1c1612" />
+          <g fill="#262626">
+            <rect x="980" y="330" width="110" height="330" />
+            <path d="M980 330a55 55 0 0 1 110 0z" />
+            <rect x="1100" y="330" width="110" height="330" />
+            <path d="M1100 330a55 55 0 0 1 110 0z" />
+            <rect x="1220" y="330" width="110" height="330" />
+            <path d="M1220 330a55 55 0 0 1 110 0z" />
+            <rect x="1360" y="200" width="60" height="460" />
+            <rect x="900" y="320" width="500" height="14" />
+            <rect x="760" y="520" width="240" height="140" />
+          </g>
+        </g>
+        <g id="art-silo" fill="#1b1816">
+          <rect x="300" y="190" width="100" height="330" />
+          <path d="M300 190a50 50 0 0 1 100 0z" />
+          <rect x="410" y="190" width="100" height="330" />
+          <path d="M410 190a50 50 0 0 1 100 0z" />
+          <rect x="520" y="190" width="100" height="330" />
+          <path d="M520 190a50 50 0 0 1 100 0z" />
+          <rect x="640" y="90" width="50" height="430" />
+          <rect x="200" y="330" width="440" height="12" />
+          <rect x="120" y="400" width="200" height="120" />
+        </g>
+        <g id="art-mill" fill="#1b1816">
+          <rect x="260" y="150" width="200" height="370" />
+          <rect x="470" y="290" width="260" height="230" />
+          <rect x="560" y="200" width="30" height="90" />
+          <rect x="100" y="360" width="150" height="160" />
+        </g>
+        <g id="art-port" fill="#1b1816">
+          <path d="M240 140h420v20H470v360h-30V160H240z" />
+          <rect x="560" y="160" width="18" height="360" />
+          <rect x="60" y="400" width="130" height="120" />
+          <rect x="200" y="420" width="130" height="100" />
+          <rect x="620" y="410" width="140" height="110" />
+        </g>
+        <g id="art-plant" fill="#1b1816">
+          <rect x="120" y="300" width="300" height="220" />
+          <rect x="430" y="240" width="250" height="280" />
+          <rect x="170" y="180" width="26" height="120" />
+          <rect x="620" y="130" width="34" height="110" />
+          <rect x="60" y="450" width="680" height="12" />
+        </g>
+        <g id="art-cement" fill="#1b1816">
+          <rect x="470" y="110" width="70" height="410" />
+          <rect x="560" y="200" width="60" height="320" />
+          <rect x="60" y="360" width="400" height="70" rx="35" />
+          <rect x="100" y="430" width="20" height="90" />
+          <rect x="380" y="430" width="20" height="90" />
+          <rect x="650" y="150" width="30" height="370" />
+        </g>
+      </defs>
+    </svg>
+
+    <header class="nav" id="nav">
+      <a class="logo" href="#top">Al-Marefa</a>
+      <button
+        class="burger"
+        id="burger"
+        aria-expanded="false"
+        aria-controls="links"
+        aria-label="Menu"
+      >
+        <i class="ham"></i>
+      </button>
+      <ul class="links" id="links">
+        <li><a href="#top">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <!-- 1. Hero -->
+      <section class="hero" id="top">
+        <svg
+          class="bg"
+          viewBox="0 0 1600 900"
+          preserveAspectRatio="xMidYMid slice"
+          aria-hidden="true"
+        >
+          <use href="#scene" />
+        </svg>
+        <div class="shade"></div>
+        <div class="hero-row" data-reveal>
+          <span>Contracting + Industrial</span>
+          <span>Built for Saudi industry</span>
+          <a href="#services">Scroll to explore <i class="circle">→</i></a>
+        </div>
+        <h1 data-reveal>
+          We’re a Saudi contractor for milling plants, silos and heavy industry
+          <a class="circle" href="#portfolio" aria-label="View our work">→</a>
+        </h1>
+      </section>
+
+      <!-- 2. Our Focus (services) -->
+      <section class="focus" id="services">
+        <svg
+          class="bg"
+          viewBox="0 0 1600 900"
+          preserveAspectRatio="xMidYMid slice"
+          aria-hidden="true"
+        >
+          <use href="#scene" />
+        </svg>
+        <div class="shade"></div>
+        <div class="cols">
+          <div data-reveal>
+            <p class="lab">Our Focus</p>
+            <ul class="list">
+              <li><a href="#services">Contracting</a></li>
+              <li><a href="#services">Industrial</a></li>
+              <li><a href="#services">IT Solutions</a></li>
+              <li><a href="#services">Manpower</a></li>
+              <li><a href="#services">Transport</a></li>
+            </ul>
+          </div>
+          <div data-reveal>
+            <p class="lab">Explore our</p>
+            <a class="pf" href="#portfolio">Portfolio</a>
+            <ul class="proj">
+              <li>United Feeds <span>Yanbu</span></li>
+              <li>United Feeds <span>Ras Al Khair</span></li>
+              <li>King Abdullah Port <span>Rabigh</span></li>
+              <li>First Mill <span>Saudi Arabia</span></li>
+            </ul>
+            <p class="note">
+              Project names are from the current site. Scope, capacity, year and
+              photos still need to come from the client.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. Approach -->
+      <section class="about" id="about">
+        <h2 data-reveal>
+          Clear scope. Safe sites. Built to last in the Kingdom.
+        </h2>
+        <div class="about-row" data-reveal>
+          <small>Survey. Build.<br />Commission. Support.</small>
+          <div>
+            <p>
+              Al-Marefa is a Saudi company established in 2019, delivering
+              contracting, industrial and IT solutions for milling plants, silos
+              and heavy industry. We work alongside established global equipment
+              partners, from first survey through installation and
+              commissioning.
+            </p>
+            <a class="more" href="#portfolio"
+              ><span>See our work</span><i class="circle">→</i></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. Portfolio -->
+      <section class="port" id="portfolio">
+        <div class="port-hero">
+          <svg
+            class="bg"
+            viewBox="0 0 1600 900"
+            preserveAspectRatio="xMidYMid slice"
+            aria-hidden="true"
+          >
+            <use href="#scene" />
+          </svg>
+          <div class="shade"></div>
+          <div class="port-row"><span>Our Work</span><span>Overview</span></div>
+          <h2>Portfolio</h2>
+          <a class="down circle" href="#grid" aria-label="Scroll to projects"
+            >↓</a
+          >
+        </div>
+        <div class="tabs" role="group" aria-label="Filter projects">
+          <button data-cat="all" aria-pressed="true">All</button
+          ><button data-cat="milling" aria-pressed="false">
+            Milling &amp; Silos<sup>4</sup></button
+          ><button data-cat="industrial" aria-pressed="false">
+            Industrial<sup>2</sup></button
+          ><button data-cat="ports" aria-pressed="false">
+            Ports<sup>1</sup>
+          </button>
+        </div>
+        <div class="grid" id="grid" data-reveal>
+          <article class="card" data-cat="milling" data-pos="0">
+            <div class="img sky-0" data-cat="milling">
+              <svg
+                viewBox="0 0 800 520"
+                preserveAspectRatio="xMidYMax slice"
+                aria-hidden="true"
+              >
+                <use href="#art-mill" />
+              </svg>
+            </div>
+            <h3>United Feeds</h3>
+            <p>Yanbu</p>
+          </article>
+          <article class="card" data-cat="milling" data-pos="1">
+            <div class="img sky-1" data-cat="milling">
+              <svg
+                viewBox="0 0 800 520"
+                preserveAspectRatio="xMidYMax slice"
+                aria-hidden="true"
+              >
+                <use href="#art-silo" />
+              </svg>
+            </div>
+            <h3>United Feeds</h3>
+            <p>Ras Al Khair</p>
+          </article>
+          <article class="card" data-cat="ports" data-pos="2">
+            <div class="img sky-2" data-cat="ports">
+              <svg
+                viewBox="0 0 800 520"
+                preserveAspectRatio="xMidYMax slice"
+                aria-hidden="true"
+              >
+                <use href="#art-port" />
+              </svg>
+            </div>
+            <h3>King Abdullah Port</h3>
+            <p>Rabigh</p>
+          </article>
+          <article class="card" data-cat="milling" data-pos="3">
+            <div class="img sky-3" data-cat="milling">
+              <svg
+                viewBox="0 0 800 520"
+                preserveAspectRatio="xMidYMax slice"
+                aria-hidden="true"
+              >
+                <use href="#art-mill" />
+              </svg>
+            </div>
+            <h3>First Mill</h3>
+            <p>Saudi Arabia</p>
+          </article>
+          <article class="card" data-cat="industrial" data-pos="4">
+            <div class="img sky-4" data-cat="industrial">
+              <svg
+                viewBox="0 0 800 520"
+                preserveAspectRatio="xMidYMax slice"
+                aria-hidden="true"
+              >
+                <use href="#art-plant" />
+              </svg>
+            </div>
+            <h3>Almarai Plant</h3>
+            <p>Saudi Arabia</p>
+          </article>
+          <article class="card" data-cat="industrial" data-pos="0">
+            <div class="img sky-0" data-cat="industrial">
+              <svg
+                viewBox="0 0 800 520"
+                preserveAspectRatio="xMidYMax slice"
+                aria-hidden="true"
+              >
+                <use href="#art-cement" />
+              </svg>
+            </div>
+            <h3>Cement Factory Upgrade</h3>
+            <p>Saudi Arabia</p>
+          </article>
+          <article class="card" data-cat="milling" data-pos="1">
+            <div class="img sky-2" data-cat="milling">
+              <svg
+                viewBox="0 0 800 520"
+                preserveAspectRatio="xMidYMax slice"
+                aria-hidden="true"
+              >
+                <use href="#art-silo" />
+              </svg>
+            </div>
+            <h3>GFSA Silo Works</h3>
+            <p>Saudi Arabia</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- 5. Statistics -->
+      <section class="nums" id="numbers">
+        <p class="k">The record</p>
+        <h2 data-reveal>Work you can check.</h2>
+        <!-- PLACEHOLDER: replace XX values with verified figures and a named source -->
+        <p class="k">
+          Figures marked XX are samples &mdash; replace with verified project
+          data before launch.
+        </p>
+        <div class="stats">
+          <div class="nb" data-reveal>
+            <h3 style="color: #fdd77a">Selected work, by sector</h3>
+            <p>Sector mix across the projects listed in our portfolio.</p>
+            <div class="row hi">
+              <div class="row-top">
+                <b>Milling &amp; Silos</b><b>4 projects</b>
+              </div>
+              <span class="tr"><span style="--w: 100%"></span></span>
+            </div>
+            <div class="row">
+              <div class="row-top"><b>Industrial</b><b>2 projects</b></div>
+              <span class="tr"><span style="--w: 50%"></span></span>
+            </div>
+            <div class="row">
+              <div class="row-top"><b>Ports</b><b>1 projects</b></div>
+              <span class="tr"><span style="--w: 25%"></span></span>
+            </div>
+            <div class="chips">
+              <a class="chip" href="#portfolio">Portfolio &#8599;</a>
+            </div>
+          </div>
+          <div class="nb" data-reveal>
+            <h3 style="color: #f0b8a0">Technology partners</h3>
+            <p>
+              Equipment and controls from established global suppliers, named on
+              our current site.
+            </p>
+            <div class="chips">
+              <span class="chip">B&uuml;hler</span
+              ><span class="chip">Siemens</span
+              ><span class="chip">Schneider</span
+              ><span class="chip">Helukabel</span>
+            </div>
+          </div>
+          <div class="nb" data-reveal>
+            <h3 style="color: #b9e1ff">Schedule Reliability</h3>
+            <p>Share of projects handed over on the agreed date.</p>
+            <div class="row">
+              <div class="row-top"><b>Industry baseline</b><b>XX%</b></div>
+              <span class="tr"><span style="--w: 60%"></span></span>
+            </div>
+            <div class="row hi">
+              <div class="row-top"><b>Al-Marefa projects</b><b>XX%</b></div>
+              <span class="tr"><span style="--w: 88%"></span></span>
+            </div>
+            <div class="chips"><span class="chip">Source needed</span></div>
+          </div>
+          <div class="nb" data-reveal>
+            <h3 style="color: #8fe3c8">Commissioning Time</h3>
+            <p>Days from installation complete to full operation.</p>
+            <div class="row">
+              <div class="row-top"><b>Typical plant</b><b>XX days</b></div>
+              <span class="tr"><span style="--w: 100%"></span></span>
+            </div>
+            <div class="row hi">
+              <div class="row-top"><b>Al-Marefa projects</b><b>XX days</b></div>
+              <span class="tr"><span style="--w: 58%"></span></span>
+            </div>
+            <div class="chips"><span class="chip">Source needed</span></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- 6. Contact / footer -->
+    <footer class="foot" id="contact">
+      <h2 data-reveal>Tell us about your project.</h2>
+      <a class="more" href="mailto:info@al-marefa.com?subject=Project%20enquiry"
+        ><span>Request a quote</span><i class="circle">→</i></a
+      >
+      <div class="foot-cols">
+        <div>
+          <h4>Our Focus</h4>
+          <ul>
+            <li>Contracting</li>
+            <li>Industrial</li>
+            <li>IT Solutions</li>
+            <li>Manpower</li>
+            <li>Transport</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Offices</h4>
+          <ul>
+            <li>Riyadh</li>
+            <li>Al-Kharj</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:info@al-marefa.com">info@al-marefa.com</a></li>
+            <li><a href="tel:+966500302328">+966 50 030 2328</a></li>
+            <li><a href="tel:+966115485284">+966 11 548 5284</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- TODO: add social links when the client provides URLs -->
+      <div class="foot-base">
+        <span
+          >© <span id="year">2026</span> Al-Marefa. All rights reserved.</span
+        ><a href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
